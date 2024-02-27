@@ -7,7 +7,7 @@ if (require.main === module) {
     if (input) {
       process.stdout.write(`Your name is: ${input}\n`);
     } else {
-      process.stdout.write('You did not enter a name. This important software is now closing.\n');
+      process.stdout.write('This important software is now closing.\n');
     }
 
     // Check if input is coming from a terminal (TTY)
